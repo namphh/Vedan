@@ -32,4 +32,4 @@ output = image_to_base64(img)
 
 ## Result
 <p align="center">
-  <img src="https://github.com/namphh/Vedan/blob/main/results.jpg">
+  <img src="https://github.com/namphh/Vedan/blob/master/API/result.jpg">

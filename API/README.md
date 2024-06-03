@@ -15,6 +15,11 @@ model = YOLO('best.pt')
 python Code/main.py -p PATH-TO-IMAGE
 ```
 
+## Run API
+```
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+```
+
 ## Output
 ```
 xyxys = []

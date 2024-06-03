@@ -1,0 +1,23 @@
+<c-container class="mt-5">
+  <c-card>
+    <c-card-header>
+      <h5>
+        Thông tin license
+      </h5>
+    </c-card-header>
+    <c-card-body>
+      <table cTable hover borderColor bordered>
+        <tbody >
+          <tr>
+            <th scope="row" style="width: 25%;">Ngày hết hạn</th>
+            <td>{{ infoLicense?.expired_at * 1000 | date : 'dd/MM/YYYY' }}</td>
+          </tr>
+          <tr>
+            <th scope="row" style="width: 25%;">Computer ID</th>
+            <td>{{ infoLicense?.computer_unique }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </c-card-body>
+  </c-card>
+</c-container>

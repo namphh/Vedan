@@ -6,7 +6,7 @@ pip install -r requirements.txt
 
 ## Validation
 [`best.pt`](https://github.com/namphh/Vedan/blob/main/best.pt) 
-https://drive.google.com/file/d/1tt1fIfoHfyUOsB0gSBluMRrYIPNp1oEy/view?usp=sharing
+[`best.pt`](https://drive.google.com/file/d/1tt1fIfoHfyUOsB0gSBluMRrYIPNp1oEy/view?usp=sharing)
 ```
 model = YOLO('best.pt')
 ```
